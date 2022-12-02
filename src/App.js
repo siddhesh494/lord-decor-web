@@ -1,5 +1,5 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css';
 import PageLayout from './components/PageLayout'
 import { Switch, Route } from 'react-router-dom'
 
