@@ -75,14 +75,14 @@ export default function HomePage () {
       <div className='about-container-2'>
         <div className='contact-text'>
           CONTACT US ON: 
-          <img className="svg-icon" src={WHATSAPP}/>
-          <img className="svg-icon" src={INSTAGRAM}/>
-          <img className="svg-icon" src={GMAIL}/>
-          <img className="svg-icon" src={YOUTUBE}/>
+          <img className="svg-icon" alt='whatapp' src={WHATSAPP}/>
+          <img className="svg-icon" alt='instagram' src={INSTAGRAM}/>
+          <img className="svg-icon" alt='gmail' src={GMAIL}/>
+          <img className="svg-icon" alt='youtube' src={YOUTUBE}/>
 
         </div>
         <div className='service-provide'>
-          <img className="location-svg-icon" src={LOCATION}/>
+          <img className="location-svg-icon" alt='location' src={LOCATION}/>
           We provide Service In Mumbai, Thane, Navi-Mumbai
         </div>
       </div>
@@ -129,7 +129,7 @@ export default function HomePage () {
               />
             </Carousel.Item>
           </Carousel>
-          <Button variant="primary" className='service-button'>
+          <Button variant="primary" className='service-button' href='/service'>
             SERVICE
           </Button>
         </div>

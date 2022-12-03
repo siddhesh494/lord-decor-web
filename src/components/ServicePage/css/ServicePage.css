@@ -1,0 +1,14 @@
+.service-provide {
+  margin: 0% 8%;
+}
+
+.room-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.carousel-img {
+  width: 95%;
+}
