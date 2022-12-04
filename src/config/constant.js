@@ -57,6 +57,73 @@ import A3 from '../assests/png/about/3.png'
 import A4 from '../assests/png/about/4.png'
 import A5 from '../assests/png/about/5.png'
 
+// product import section
+import Wall1 from '../assests/png/service/wallpaper/1.png'
+import Wall2 from '../assests/png/service/wallpaper/2.png'
+import InvG1 from '../assests/png/service/invisible_grill/1.png'
+import InvG2 from '../assests/png/service/invisible_grill/2.png'
+
+import MosNet1 from '../assests/png/service/mosquite_net/1.png'
+import MosNet2 from '../assests/png/service/mosquite_net/2.png'
+
+import GarArt1 from '../assests/png/service/garden_artificial/1.png'
+import GarArt2 from '../assests/png/service/garden_artificial/2.png'
+import GarArt3 from '../assests/png/service/garden_artificial/3.png'
+
+import BirdS1 from '../assests/png/service/bird_spikes/1.png'
+import BirdS2 from '../assests/png/service/bird_spikes/2.png'
+
+import Flr1 from '../assests/png/service/flooring/1.png'
+import Flr2 from '../assests/png/service/flooring/2.png'
+
+import MonB1 from '../assests/png/service/monsoon_blinds/1.png'
+import MonB2 from '../assests/png/service/monsoon_blinds/2.png'
+
+import WodB1 from '../assests/png/service/wooden_blinds/1.png'
+import WodB2 from '../assests/png/service/wooden_blinds/2.png'
+
+const productDetailsImage = [
+  {
+    name : "Invisible Grill",
+    image: [InvG1, InvG2],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    name : "Mosqito Net",
+    image: [MosNet1, MosNet2],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    name : "Wall Garden And Artificial",
+    image: [GarArt1, GarArt2, GarArt3],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    name : "Bird Spikes",
+    image: [BirdS1, BirdS2],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    name : "Burna Teak Wood Floring And Furniture",
+    image: [Flr1, Flr2],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    name : "Monsoon Blinds",
+    image: [MonB1, MonB2],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    name : "Waterproof Wallpaper",
+    image: [Wall1, Wall2],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    name : "Sunscreen And Wooden Blinds",
+    image: [WodB1, WodB2],
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  }
+]
 
 const livingImage = [L1, L2, L3, L4, L5, L6]
 const kitchenImage = [K1, K2, K3, K4, K5, K6]
@@ -118,5 +185,6 @@ export {
   otherImage,
   productImage,
   serviceImage,
-  aboutImage
+  aboutImage,
+  productDetailsImage
 }
