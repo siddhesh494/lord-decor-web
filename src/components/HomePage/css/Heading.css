@@ -6,12 +6,14 @@
 }
 
 .main-title-heading {
-  font-size: 85px;
+  font-size: 95px;
 }
 
 .tag-line-heading {
-  font-size: 36px;
+  font-size: 46px;
+  letter-spacing: 2px;
 }
+
 
 .button-heading {
   margin: 10px 25px;
@@ -42,11 +44,11 @@
 
 @media (max-width: 850px) {
   .main-title-heading {
-    font-size: 50px;
+    font-size: 70px;
   }
   
   .tag-line-heading {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .button-heading {
@@ -56,11 +58,11 @@
 
 @media (max-width: 750px) {
   .main-title-heading {
-    font-size: 40px;
+    font-size: 60px;
   }
   
   .tag-line-heading {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .button-heading {
@@ -70,11 +72,11 @@
 
 @media (max-width: 680px) {
   .main-title-heading {
-    font-size: 35px;
+    font-size: 50px;
   }
   
   .tag-line-heading {
-    font-size: 15px;
+    font-size: 22px;
   }
 
   .button-heading {
@@ -84,11 +86,11 @@
 
 @media (max-width: 600px) {
   .main-title-heading {
-    font-size: 33px;
+    font-size: 45px;
   }
   
   .tag-line-heading {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .button-heading {
@@ -103,11 +105,11 @@
 
 @media (max-width: 560px) {
   .main-title-heading {
-    font-size: 28px;
+    font-size: 42px;
   }
   
   .tag-line-heading {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .button-heading {
@@ -122,11 +124,11 @@
 
 @media (max-width: 500px) {
   .main-title-heading {
-    font-size: 24px;
+    font-size: 40px;
   }
   
   .tag-line-heading {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .button-heading {
@@ -142,11 +144,11 @@
 
 @media (max-width: 450px) {
   .main-title-heading {
-    font-size: 20px;
+    font-size: 32px;
   }
   
   .tag-line-heading {
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 10px;
   }
 
@@ -163,11 +165,11 @@
 
 @media (max-width: 400px) {
   .main-title-heading {
-    font-size: 18px;
+    font-size: 30px;
   }
   
   .tag-line-heading {
-    font-size: 9px;
+    font-size: 15px;
     margin-bottom: 3px;
   }
 
@@ -187,11 +189,11 @@
 
 @media (max-width: 330px) {
   .main-title-heading {
-    font-size: 16px;
+    font-size: 25px;
   }
   
   .tag-line-heading {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 2px;
   }
 
@@ -207,5 +209,27 @@
   
   .card-footer{
     font-size: 9px;
+  }
+}
+
+@media (max-width: 300px) {
+  .main-title-heading {
+    font-size: 25px;
+  }
+  
+  .tag-line-heading {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+}
+
+@media (max-width: 260px) {
+  .main-title-heading {
+    font-size: 20px;
+  }
+  
+  .tag-line-heading {
+    font-size: 8px;
+    margin-bottom: 1px;
   }
 }

@@ -1,12 +1,13 @@
-.service-provide {
-  margin: 0% 8%;
+.service-provide-container {
+  /* margin: 5% 8%; */
+  margin: 4% 4%
 }
 
 .room-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px auto;
+  margin: 6% auto;
 }
 
 .carousel-img {

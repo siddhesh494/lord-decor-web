@@ -3,9 +3,29 @@
   border: 0px;
 }
 
+.btn-primary:active {
+  background-color: #AD641D !important;
+}
+.btn-primary:hover {
+  background-color: #AD641D !important;
+}
+
 h1 {
   color: #AD641D;
   margin-bottom: 20px;
   margin-top: 30px;
+  font-weight: bolder !important;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.sensation {
+  font-family: Sansation;
+}
+
+.sen {
+  font-family: sen;
 }
 
