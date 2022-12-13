@@ -82,31 +82,33 @@ import MonB2 from '../assests/png/service/monsoon_blinds/2.png'
 import WodB1 from '../assests/png/service/wooden_blinds/1.png'
 import WodB2 from '../assests/png/service/wooden_blinds/2.png'
 
+import { Invisible_Grill, Mosquito_net, Grass, Spikes, Blinds, Wallpaper, Flooring } from '../config/productDetails'
+
 const productDetailsImage = [
   {
     name : "Invisible Grill",
     image: [InvG1, InvG2],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: Invisible_Grill
   },
   {
     name : "Mosqito Net",
     image: [MosNet1, MosNet2],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: Mosquito_net
   },
   {
     name : "Wall Garden And Artificial",
     image: [GarArt1, GarArt2, GarArt3],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: Grass
   },
   {
-    name : "Bird Spikes",
+    name : "Bird Spikes & Pigeon",
     image: [BirdS1, BirdS2],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: Spikes
   },
   {
     name : "Burna Teak Wood Floring And Furniture",
     image: [Flr1, Flr2],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: Flooring
   },
   {
     name : "Monsoon Blinds",
@@ -116,12 +118,12 @@ const productDetailsImage = [
   {
     name : "Waterproof Wallpaper",
     image: [Wall1, Wall2],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: Wallpaper
   },
   {
     name : "Sunscreen And Wooden Blinds",
     image: [WodB1, WodB2],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: Blinds
   }
 ]
 

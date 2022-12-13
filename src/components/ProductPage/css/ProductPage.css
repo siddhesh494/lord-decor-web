@@ -13,7 +13,7 @@
   width: 75%;
   grid-template-columns: 30% auto;
   grid-column-gap: 10%;
-  align-items: center;
+  /* align-items: center; */
   justify-items: center;
 }
 .product-description {
@@ -24,6 +24,13 @@
 
 
 @media (max-width: 1040px) {
+  h5 {
+    font-size: 13px;  
+  }
+  /* .product-inner-section {
+    align-items: normal;
+
+  } */
 
 }
 
@@ -47,6 +54,9 @@
   }
   .product-section {
     margin: 15% auto;
+  }
+  h5 {
+    font-size: 15px;  
   }
 }
 
@@ -73,6 +83,10 @@
 @media (max-width: 550px) {
   .product-img {
     width: 100%;
+  }
+
+  h5 {
+    font-size: 13px;  
   }
 }
 

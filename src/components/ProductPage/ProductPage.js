@@ -39,9 +39,6 @@ export default function ProductPage () {
                   <p>
                     {item.description}
                   </p>
-                  <p>
-                    {item.description}
-                  </p>
                   <Button className='btn-video'>
                     Video Link
                   </Button>
