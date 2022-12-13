@@ -35,7 +35,7 @@ const Mosquito_net =
 
 const Grass = 
 <div>
-  <h4>Artificial grass benefits homeowners in a variety of ways</h4>
+  <h5><b>Artificial grass benefits homeowners in a variety of ways</b></h5>
   <h5>
     <ul>
       <li>Lawn Health</li>
