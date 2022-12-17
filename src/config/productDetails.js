@@ -102,6 +102,12 @@ const Blinds =
   <h5>This also decreases the need for air conditioning and you can also save power on artificial lighting because you are not blocking natural lights</h5>
 </div>
 
+const monsoon = 
+<div>
+  <h5>These custom fit blinds withstand Indian tropical weather effects such as rain, wind, harsh glare or heat.</h5>
+  <h5>The monsoon blinds themselves are easy to handle and maintain. Ideal for for open areas.</h5>
+</div>
+
 export {
   Invisible_Grill,
   Mosquito_net,
@@ -109,5 +115,6 @@ export {
   Spikes,
   Blinds,
   Wallpaper,
-  Flooring
+  Flooring,
+  monsoon
 }

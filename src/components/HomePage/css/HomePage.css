@@ -52,6 +52,7 @@
 .svg-icon {
   width: 10%;
   margin: 0% 1%;
+  cursor: pointer;
 }
 
 .location-svg-icon {

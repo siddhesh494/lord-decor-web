@@ -13,8 +13,8 @@
   width: 75%;
   grid-template-columns: 30% auto;
   grid-column-gap: 10%;
-  /* align-items: center; */
   justify-items: center;
+  align-items: center;
 }
 .product-description {
   display: flex;

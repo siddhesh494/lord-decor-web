@@ -82,7 +82,7 @@ import MonB2 from '../assests/png/service/monsoon_blinds/2.png'
 import WodB1 from '../assests/png/service/wooden_blinds/1.png'
 import WodB2 from '../assests/png/service/wooden_blinds/2.png'
 
-import { Invisible_Grill, Mosquito_net, Grass, Spikes, Blinds, Wallpaper, Flooring } from '../config/productDetails'
+import { Invisible_Grill, Mosquito_net, Grass, Spikes, Blinds, Wallpaper, Flooring, monsoon } from '../config/productDetails'
 
 const productDetailsImage = [
   {
@@ -113,7 +113,7 @@ const productDetailsImage = [
   {
     name : "Monsoon Blinds",
     image: [MonB1, MonB2],
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    description: monsoon
   },
   {
     name : "Waterproof Wallpaper",
