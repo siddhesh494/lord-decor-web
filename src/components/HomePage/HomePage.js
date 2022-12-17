@@ -7,9 +7,10 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 // import AboutSection from '../../assests/png/about/2.png' 
 import WHATSAPP from '../../assests/svg/WhatsApp.svg'
 import INSTAGRAM from '../../assests/svg/Instagram.svg'
-import GMAIL from '../../assests/svg/Gmail.svg'
+// import GMAIL from '../../assests/svg/Gmail.svg'
 import LOCATION from '../../assests/svg/Location.svg'
 import YOUTUBE from '../../assests/svg/youtube.svg'
+import FACEBOOK from '../../assests/svg/facebook.svg'
 import { productImage, serviceImage, aboutImage } from '../../config/constant'
 import { map } from 'lodash'
 
@@ -78,10 +79,11 @@ export default function HomePage () {
         <div className='about-container-2 sen'>
           <div className='contact-text sen'>
             CONTACT US ON: 
-            <img className="svg-icon" alt='whatapp' src={WHATSAPP}/>
-            <img className="svg-icon" alt='instagram' src={INSTAGRAM}/>
-            <img className="svg-icon" alt='gmail' src={GMAIL}/>
-            <img className="svg-icon" alt='youtube' src={YOUTUBE}/>
+            <img className="svg-icon" alt='whatapp'  onClick={()=>{window.location.href = 'https://wa.me/9970007890'}} src={WHATSAPP}/>
+            <img className="svg-icon" alt='facebook' src={FACEBOOK}/>
+            <img className="svg-icon" alt='instagram' onClick={()=>{window.location.href = 'https://instagram.com/lords_decor?igshid=YmMyMTA2M2Y='}} src={INSTAGRAM}/>
+            {/* <img className="svg-icon" alt='gmail' src={GMAIL}/> */}
+            <img className="svg-icon" alt='youtube' onClick={()=>{window.location.href = 'https://youtube.com/@lordsdecor8460'}} target="_blank" src={YOUTUBE}/>
 
           </div>
           <div className='service-provide sen'>
@@ -95,6 +97,29 @@ export default function HomePage () {
       <div className='work-section container'>
         <h1 className='sen'>OUR WORK</h1>
         <div className='work-container-1'>
+
+        <div className='service-item'>
+            <Carousel>
+              {map(serviceImage, (item) => {
+                return (
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={item.image}
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
+                      <p style={{fontWeight: "bold"}}>{item.name}</p>
+                    </Carousel.Caption> 
+                  </Carousel.Item>
+                )
+              })}
+            </Carousel>
+            <Button variant="primary" className='service-button' href='/service'>
+              SERVICE
+            </Button>
+          </div>
+
           <div className='product-item'>
             <Carousel>
               {map(productImage, (item) => {
@@ -115,28 +140,6 @@ export default function HomePage () {
             </Carousel>
             <Button variant="primary" className='product-button' href='/product'>
               PRODUCT
-            </Button>
-          </div>
-
-          <div className='service-item'>
-            <Carousel>
-              {map(serviceImage, (item) => {
-                return (
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={item.image}
-                      alt="First slide"
-                    />
-                    <Carousel.Caption>
-                      <p style={{fontWeight: "bold"}}>{item.name}</p>
-                    </Carousel.Caption> 
-                  </Carousel.Item>
-                )
-              })}
-            </Carousel>
-            <Button variant="primary" className='service-button' href='/service'>
-              SERVICE
             </Button>
           </div>
         </div>
