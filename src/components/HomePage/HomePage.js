@@ -35,7 +35,9 @@ export default function HomePage () {
           </div>
           <div className='footer'>
             <Card.Footer className='card-footer'>
-              <BsFillTelephoneFill/> 9970007890
+              <a href="tel:+919637399123" className='phone-link' aria-label="Call 9637399123">
+                <BsFillTelephoneFill/> 9637399123
+              </a>
             </Card.Footer>
           </div>
           
