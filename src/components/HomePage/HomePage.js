@@ -81,7 +81,7 @@ export default function HomePage () {
         <div className='about-container-2 sen'>
           <div className='contact-text sen'>
             CONTACT US ON: 
-            <img className="svg-icon" alt='whatapp'  onClick={()=>{window.location.href = 'https://wa.me/9970007890'}} src={WHATSAPP}/>
+            <img className="svg-icon" alt='whatapp'  onClick={()=>{window.location.href = 'https://wa.me/9637399123'}} src={WHATSAPP}/>
             <img className="svg-icon" alt='facebook' src={FACEBOOK}/>
             <img className="svg-icon" alt='instagram' onClick={()=>{window.location.href = 'https://instagram.com/lords_decor?igshid=YmMyMTA2M2Y='}} src={INSTAGRAM}/>
             {/* <img className="svg-icon" alt='gmail' src={GMAIL}/> */}
